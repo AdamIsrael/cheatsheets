@@ -1,11 +1,10 @@
-Code snippets: sed
+# sed
 
 ## Important parameters
 - **-i** - Make change inline. By default, your change will only be echoed to stdout
-- 
-- 
 
-## Append text to the next to last line in a file
+
+## Append text to the penultimate line in a file
 ```
 $ cat /etc/rc.local 
 #!/bin/sh -e
